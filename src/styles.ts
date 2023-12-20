@@ -632,8 +632,12 @@ export const Root = styled('div')`
 `;
 
 export const Hero = styled('div')`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  margin: 80px 0 80px;
+  
 `;
 export const MintCount = styled('p')`
   

@@ -330,12 +330,10 @@ const Home = (props: HomeProps) => {
                 </Link>
               </Heading>
 
-              <p  >
-                Step into the Bravest Beavers Solana NFT collection, where these toothy dam generators
+              <p style={{ maxWidth: '700px' }}>
+                Step into the Bravest Beavers Solana NFT collection, where these toothy dam generators explore the world, build, chew, and chill. It&apos;s about dam time!
               </p>
-              <p>
-                explore the world, build, chew, and chill. It&apos;s about dam time!
-              </p>
+
 
               {guardStates.isStarted && (
                 <MintCount>
