@@ -98,7 +98,7 @@ const Wallet = styled.ul`
 const ConnectButton = styled(WalletMultiButton)`
   border-radius: 5px !important;
   padding: 6px 16px;
-  background-color: #fff;
+  background-color: #faa95e !important;
   color: #000;
   margin: 0 auto;
 `;
@@ -330,8 +330,11 @@ const Home = (props: HomeProps) => {
                 </Link>
               </Heading>
 
-              <p >
-                Step into the Bravest Beavers Solana NFT collection, where these toothy dam generators explore the world, build, chew, and chill. It&apos;s about dam time!
+              <p style={{ lineHeight: 0.2 }} >
+                Step into the Bravest Beavers Solana NFT collection, where these toothy dam generators
+              </p>
+              <p>
+                explore the world, build, chew, and chill. It&apos;s about dam time!
               </p>
 
               {guardStates.isStarted && (
@@ -446,7 +449,7 @@ const Home = (props: HomeProps) => {
           {alertState.message}
         </Alert>
       </Snackbar>
-    </main>
+    </main >
   );
 };
 
