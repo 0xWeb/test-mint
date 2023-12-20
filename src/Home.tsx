@@ -330,7 +330,7 @@ const Home = (props: HomeProps) => {
                 </Link>
               </Heading>
 
-              <p style={{ lineHeight: 0.2 }} >
+              <p  >
                 Step into the Bravest Beavers Solana NFT collection, where these toothy dam generators
               </p>
               <p>
