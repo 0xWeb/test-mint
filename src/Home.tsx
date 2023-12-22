@@ -337,8 +337,8 @@ const Home = (props: HomeProps) => {
 
               {guardStates.isStarted && (
                 <MintCount>
-                  Total Minted : {candyMachineV3.items.redeemed}/
-                  {candyMachineV3.items.available}{" "}
+                  Total Minted : {candyMachineV3.items.redeemed}/5555
+                  {/* {candyMachineV3.items.available}{" "} */}
                   {(guards?.mintLimit?.mintCounter?.count ||
                     guards?.mintLimit?.settings?.limit) && (
                       <>
